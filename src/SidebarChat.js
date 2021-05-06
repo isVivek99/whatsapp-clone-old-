@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 
 function SidebarChat(props) {
 
-    console.log(props.addNewChat);
+    console.log(props.name2);
     //console.log("sidebarchat");
 
     const [seed, setSeed] = useState('');
@@ -27,7 +27,7 @@ function SidebarChat(props) {
         <div className="sidebarChat">
             <Avatar src ={`https://avatars.dicebear.com/api/human/${seed}.svg`} />  
             <div className="sidebarChat__info">
-                <h1>Room Name</h1>
+                <h1>{props.name}</h1>
                 <p>last message...</p>
 
             </div>
