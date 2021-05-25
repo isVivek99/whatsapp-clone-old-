@@ -1,4 +1,4 @@
-##Features
+## Features
 1. google auth
 2. create groups and chat on the groups
 
