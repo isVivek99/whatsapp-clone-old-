@@ -1,3 +1,13 @@
+##Features
+1. google auth
+2. create groups and chat on the groups
+
+## Features yet to be added
+1. one on one chat
+2. normal signin option
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
